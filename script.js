@@ -31,21 +31,21 @@ console.log(amount);
 
 // 5
 
-let floatingNumber = 4,8;
+let floatingNumber = 4.8;
 
 console.log('Округлене число: ' + Math.floor(floatingNumber));
 
 // 6
 
-let number = '4,8';
+let parseNumber = '4.8';
 
-console.log('Десяткове число: ' + Number.parseFloat(number));
+console.log('Десяткове число: ' + Number.parseFloat(parseNumber));
 
 // 7
 
-let number = '10';
+let fullNumber = '10';
 
-console.log('Ціле число: ' + Number.parseInt(number));
+console.log('Ціле число: ' + Number.parseInt(fullNumber));
 
 // 8
 
