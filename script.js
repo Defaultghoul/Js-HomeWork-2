@@ -7,7 +7,7 @@ alert((celsius * 9) / 5 + 32);
 
 let month = +prompt('Введіть кількість днів в місяці:');
 
-console.log(`Годин: ${month * 24}, Хвилин: ${month * 43800}`);
+console.log(`Годин: ${month * 24}, Хвилин: ${month * 24 * 60}`);
 
 // 3
 
