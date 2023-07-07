@@ -31,7 +31,7 @@ console.log(amount);
 
 // 5
 
-let floatingNumber = 4.8;
+let floatingNumber = 4.888;
 
 console.log('Округлене число: ' + Math.floor(floatingNumber));
 
